@@ -1,0 +1,20 @@
+
+import numpy as np
+
+arr=np.array([[22,34,45],[65,75,32],[24,89,78]])
+
+print(arr)
+
+
+#iterate trough my rows , 
+print("Iterate through row method below")
+
+for row in arr:
+    print(row)
+    
+ 
+  
+print("Iterating through individual element in a row below")  
+for row in arr:
+    for ele in row:
+        print(ele)
